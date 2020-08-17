@@ -1,0 +1,46 @@
+@media (max-width: 660px) {
+  *{
+    border:0;
+    margin:0;
+    padding:0;
+    /* como vou usar unidades relativas */
+    font-size: 100%;
+    border:none;
+    font-weight: 300;
+   
+    outline: none;
+     box-sizing: border-box; 
+  }
+ body{
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   background-color:var(--blue);
+   background-image: none;
+   flex-direction: column;
+   
+ }
+
+.logo{
+  display: none;
+}
+
+.wrapper{
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.wrapper-text{
+  width: 19.625rem;
+  height: 10.625rem;
+  margin-top:5.125rem;
+  margin-left:2.25rem;
+
+}
+
+
+
+:root {
+  --blueDark:#0F4C81;
+  --blue:#2369A6;
+  --white:#ffffff;
+}}
